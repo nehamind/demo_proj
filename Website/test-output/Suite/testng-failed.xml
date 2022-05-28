@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="UrbanLadder.Website.sofa_product">
+        <methods>
+          <include name="Test3"/>
+        </methods>
+      </class> <!-- UrbanLadder.Website.sofa_product -->
+      <class name="UrbanLadder.Website.Ul_logout">
+        <methods>
+          <include name="Test6"/>
+        </methods>
+      </class> <!-- UrbanLadder.Website.Ul_logout -->
+      <class name="UrbanLadder.Website.Ul_trackorder">
+        <methods>
+          <include name="Test8"/>
+        </methods>
+      </class> <!-- UrbanLadder.Website.Ul_trackorder -->
+      <class name="UrbanLadder.Website.Ul_mandatoryfields">
+        <methods>
+          <include name="Test7"/>
+        </methods>
+      </class> <!-- UrbanLadder.Website.Ul_mandatoryfields -->
+      <class name="UrbanLadder.Website.orderitem_Ul">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- UrbanLadder.Website.orderitem_Ul -->
+      <class name="UrbanLadder.Website.Ul_login">
+        <methods>
+          <include name="Test5"/>
+        </methods>
+      </class> <!-- UrbanLadder.Website.Ul_login -->
+      <class name="UrbanLadder.Website.Signup">
+        <methods>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- UrbanLadder.Website.Signup -->
+      <class name="UrbanLadder.Website.study_chair">
+        <methods>
+          <include name="Test4"/>
+        </methods>
+      </class> <!-- UrbanLadder.Website.study_chair -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
